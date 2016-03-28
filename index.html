@@ -1,50 +1,307 @@
-  <!DOCTYPE html>
-  <html>
-    <head>
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
-
-    <body>
-
-      <!-- Navbar goes here -->
-
-          <!-- Page Layout here -->
-          <div class="row">
-
-            <div class="col s12 m4 l3"> <!-- Note that "m4 l3" was added -->
-              <!-- Grey navigation panel
-
-                    This content will be:
-                3-columns-wide on large screens,
-                4-columns-wide on medium screens,
-                12-columns-wide on small screens  -->
-                <div class="card-panel teal lighten-2 hoverable">This is a card panel with a teal lighten-2 class</div>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<!--Import Google Icon Font-->
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css" media="screen,projection">
+	<link href="custom.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 
-            </div>
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0"/>
+	<title>Sarthak Bhandari</title>
 
-            <div class="col s12 m8 l9"> <!-- Note that "m8 l9" was added -->
-              <!-- Teal page content
+</head>
 
-                    This content will be:
-                9-columns-wide on large screens,
-                8-columns-wide on medium screens,
-                12-columns-wide on small screens  -->
+<body>
+	<div class="navbar-fixed">
+		<nav class="light-blue lighten-1" role="navigation">
+			<div class="nav-wrapper container"><a id="logo-container" href="#home" class="brand-logo">SB</a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#exp">Experience</a></li>
+					<li><a href="#edu">Education</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
 
-                <div class="card-panel hoverable">
-                      <span class="blue-text text-darken-2">This is a card panel with dark blue text</span>
-                    </div>
+				<ul id="nav-mobile" class="side-nav">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#exp">Experience</a></li>
+					<li><a href="#edu">Education</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+				<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+			</div>
+		</nav>
+	</div>
 
-            </div>
+	<div class="section no-pad-bot" id="index-banner">
+		<div class="container">
+			<br><br>
+			<a name="home"></a>
+			<h1 class="header center orange-text">Sarthak Bhandari</h1>
+			<div class="row center">
+				<h4 class="header col s12 light">Junior at University of Michigan, Ann Arbor</h4>
+				<h5 class="header col s12 light">Computer Science Engineering &amp; Entrepreneurship</h5>
 
-          </div>
+			</div>
+			<div class="row center">
+				<a href="Bhandari_Sarthak_Resume.pdf" target="_blank" id="download-button" class="btn-large waves-effect waves-light orange">Download Resume</a>
+			</div>
+			<br><br>
+		</div>
+	</div>
+	<div class="container">
+		<div class="section">
+			<div class="row">
+				<div class="col s12 m4">
+					<div class="card-panel hoverable blue">
+						<span class="white-text">
+							Hey! I'm Sarthak, a rising senior majoring computer science and minoring in entrepreneurship at the University of Michigan. I like sci-fi movies and books, Daft Punk and programming. Why do cows have hooves instead of feet? Because they lactose.
+						</span>
+					</div>
+				</div>
+				<div class="col s12 m4">
+					<div class="card-panel hoverable light-green">
+						<span class="white-text">
+							I'm mainly an Android App developer, but I dabble in machine learning, web development, databases, computer security and iOS app development. I also love puzzles, video making/editing, hacking and daydreaming about saving the world.
+						</span>
+					</div>
+				</div>
+				<div class="col s12 m4">
+					<div class="card-panel hoverable red">
+						<span class="white-text">
+							You can download my resume with the buttom up top. If you're looking for more specific details like my projects or my education, check out the navigation links! If you're on mobile they're in the hamburger menu and if you're in desktop mode they're up top.
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section">
+			<div class="row">
+				<a name="exp"></a>
+				<h3 class="header light">Experience</h3>
+				<h5 class="header light"> Click on each card to reveal more information </h5>
+			</div>
+			<div class="row">
+				<div class="col s12 m4">
+					<div class="card hoverable small">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator" src="images/ny_skyline.jpg">
+							<span class="card-title">American Express</span>
+						</div>
+						<div class="card-content">
+							<p> <b> Software Development Intern | New York, NY </b>  </p>
+							<p> June 2016 - August 2016</p>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4">American Express<i class="material-icons right">close</i></span>
+							<p>This internship is a work in progress and will be updated as the internship goes on.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col s12 m4">
+					<div class="card hoverable small">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator" src="images/ann_arbor.jpg">
+							<span class="card-title">AdAdapted</span>
+						</div>
+						<div class="card-content">
+							<p> <b> Android Development Intern | Ann Arbor, MI </b>  </p>
+							<p> May 2015 - August 2015</p>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4">AdAdapted<i class="material-icons right">close</i></span>
+							<p>Successfully helped launch the Android SDK by leading the design and development of four Android applications to test and debug AdAdapted’s platform.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col s12 m4">
+					<div class="card hoverable small">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator" src="images/plymouth.jpg">
+							<span class="card-title">Health Decisions</span>
+						</div>
+						<div class="card-content">
+							<p> <b> Software Development Intern | Plymouth, MI </b>  </p>
+							<p> March 2013 - June 2013</p>
+						</div>
+						<div class="card-reveal">
+							<span class="card-title grey-text text-darken-4">Health Decisions<i class="material-icons right">close</i></span>
+							<p>Used Microsoft SQL Server to improve accessibility of available healthcare information allowing for a streamlined work experience. Calculated and analyzed costs of medical procedures.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section">
+			<div class="row">
+				<a name="edu"></a>
+				<h3 class="header light">Education</h3>
+				<h5 class="header light"> University of Michigan</h5>
+			</div>
+			<div class="row">
+				<div class="col s12 m5">
+					<div class="card-panel hoverable orange">
+						<span class="white-text">
+							<b> Quick Info </b>
+							<p>
+								Expected graduation date: May 2017 <br>
+								GPA: 3.261 <br>
+								Relevant courses:
+								<ul>
+									<li>- Data Structures &amp; Algorithms</li>
+									<li>- Intro to Computer Organization</li>
+									<li>- Database Management Systems </li>
+									<li>- Technical Communication</li>
+									<li>- Intro to Computer Security</li>
+									<li>- Web Databases &amp; Information Systems </li>
+									<li>- Intro to Machine Learning</li>
+									<li>- Intro to Operating Systems </li>
+									<li>- Entrepreneurial Business Basics</li>
+								</ul>
+							</p>
+						</span>
+					</div>
+				</div>
+				<div class="col s12 m7">
+					<div class="card-panel hoverable orange">
+						<span class="white-text">
+							<b> Clubs/Activities &amp; Awards</b>
+							<p>
+								CSE Scholars (Sept. 2013 - present) <br>
+								&emsp;(President, Jan. 2016 - Present) <br>
+								MHacks VI (Sept. 2015)<br>
+								&emsp;(Winner, Best Wolfram Tech) <br>
+								MHacks V (Jan. 2015)<br>
+								Petrovich Emerging Leadership Program (Nov. 2014 - May 2015)<br>
+								<br>
+								Engineering Scholarship of Honor (Sept. 2012 - present)
+							</p>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section">
+			<div class="row">
+				<a name="skills"></a>
+				<h3 class="header light">Skills</h3>
+			</div>
+			<div class="row">
+				<div class="col s12 m5">
+					<div class="card-panel hoverable blue">
+						<span class="white-text">
+							<b> Programming Skills</b>
+							<p>
+								Proficient: Java, C++, Android/XML <br>
+								Intermediate: Python, SQL, Git, Linux <br>
+								Experience With: JavaScript, BASH
+							</p>
+						</span>
+					</div>
+				</div>
+				<div class="col s12 m7">
+					<div class="card-panel hoverable blue">
+						<span class="white-text">
+							<b> Other Skills</b>
+							<p>
+								Languages: English, Spanish, Hindi <br>
+								Software: Microsoft Suite, Audacity, Atlassian Suite, Sony Vegas <br>
+							</p>
+						</span>
+					</div>
+				</div>
 
-      <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
-    </body>
-  </html>
+			</div>
+		</div>
+		<div class="section">
+			<div class="row">
+				<a name="projects"></a>
+				<h3 class="header light">Projects</h3>
+			</div>
+			<div class="row">
+				<div class="col s12 m4">
+					<div class="card hoverable medium">
+						<div class="card-image">
+							<img src="images/otriangles.png">
+							<span class="card-title">SpeakEasy</span>
+						</div>
+						<div class="card-content">
+							<p> Led the creation of a web app that analyzed two user-uploaded sounds that generated a result informing users how different the sounds were from each other in terms of speed and volume.</p>
+						</div>
+						<div class="card-action">
+							<a href="http://gapoorva.github.io/SpeakEasy/" target="_blank">Homepage</a>
+						</div>
+					</div>
+				</div>
+				<div class="col s12 m4">
+					<div class="card hoverable medium">
+						<div class="card-image">
+							<img src="images/blueTriangles.png">
+							<span class="card-title">Wobetto</span>
+						</div>
+						<div class="card-content">
+							<p> Created a startup initiative focused on developing a tool to help students connect with each other. Launched September 2015. The tool is built for the web.</p>
+						</div>
+						<div class="card-action">
+							<a href="http://www.wobetto.com" target="_blank">Homepage</a>
+						</div>
+					</div>
+				</div>
+				<div class="col s12 m4">
+					<div class="card hoverable medium">
+						<div class="card-image">
+							<img src="images/grayTriangles.png">
+							<span class="card-title">Simple Holo Stopwatch</span>
+						</div>
+						<div class="card-content">
+							<p> Built a stopwatch app for Android. Developed and launched in a month to get a feel for the Android ecosystem.</p>
+						</div>
+						<div class="card-action">
+							<a href="http://goo.gl/xXKj1g" target="_blank">Play Store</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="page-footer blue">
+		<div class="container">
+			<div class="row">
+				<a name="contact"></a>
+				<div class="col s3 center-align">
+					<a class="white-text" href="https://github.com/sartechb" target="_blank"><i class="fa fa-github"></i></a>
+				</div>
+				<div class="col s3 center-align">
+					<a class="white-text" href="mailto:sarthakb@umich.edu"><i class="fa fa-envelope"></i></a>
+				</div>
+				<div class="col s3 center-align">
+					<a class="white-text" href="https://twitter.com/sartechb" target="_blank"><i class="fa fa-twitter"></i></a>
+				</div>
+				<div class="col s3 center-align">
+					<a class="white-text" href="https://www.linkedin.com/in/sarthakbhandari" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+				Made with <a class="blue-text text-lighten-3" href="http://materializecss.com" target="_blank">Materialize</a>
+			</div>
+		</div>
+	</footer>
+
+	<!--Import jQuery before materialize.js-->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+	<script src="custom.js"></script>
+
+</body>
+</html>
