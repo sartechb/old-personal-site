@@ -25,3 +25,12 @@ i.fa-linkedin-square{
 a:hover i.fa-linkedin-square{
 	color:#90caf9;
 }
+
+hr {
+    border: none;
+    height: 1px;
+    width: 5%;
+    /* Set the hr color */
+    color: white; /* old IE */
+    background-color: white; /* Modern Browsers */
+}
