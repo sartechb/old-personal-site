@@ -35,6 +35,6 @@ hr {
     background-color: white; /* Modern Browsers */
 }
 
-a:link {
+a.eighty:link{
     color: hotpink;
 }
