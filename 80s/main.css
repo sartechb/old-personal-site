@@ -1,0 +1,166 @@
+ @font-face { 
+  font-family: Streamster; src: url('fonts/Streamster.ttf'); 
+} 
+
+html {
+  background: #000;
+}
+
+.wrapper {
+  background: -webkit-radial-gradient(center ellipse, rgba(127, 0, 173, 0.6) 0%, rgba(0, 0, 0, 0.8) 60%, #000000 90%), url(images/stars.jpg);
+  background: radial-gradient(ellipse at center, rgba(127, 0, 173, 0.6) 0%, rgba(0, 0, 0, 0.8) 60%, #000000 90%), url(images/stars.jpg);
+  background-size: cover;
+  height: 27.5em;
+  overflow: hidden;
+  -webkit-perspective: 1200px;
+  perspective: 1200px;
+}
+
+h1 {
+  color: #C6CBF5;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 70px;
+  font-weight: 100;
+  line-height: 1.2;
+  left: 50%;
+  margin: 0;
+  margin-left: -210px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 125px;
+  width: 400px;
+  z-index: 11;
+  background: -webkit-linear-gradient(top, #151C60, #C6CBF5 40%, black 40%, #E1A0CE 65%, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+}
+
+h2 {
+  color: #d100b1;
+  display: block;
+  font-family: 'Streamster', cursive;
+  font-size: 90px;
+  margin-right: -8em;
+  position: absolute;
+  text-shadow: 0 0 1px #d100b1, 0 -3px 3px rgba(255, 255, 255, 0.8), 0 3px 3px rgba(0, 0, 0, 0.5), 0 0 15px #d100b1, 0 0 45px rgba(209, 0, 177, 0.8);
+  text-align: center;
+  text-decoration: underline;
+  text-transform: none;
+  -webkit-transform: skew(-10deg) rotate(-10deg);
+  transform: skew(-10deg) rotate(-10deg);
+  top: 80px;
+  width: 100%;
+  z-index: 11;
+}
+
+.grid {
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0px, rgba(54, 226, 248, 0.5) 0%, rgba(54, 226, 248, 0.5) 3px, rgba(0, 0, 0, 0) 0px), -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0px, rgba(54, 226, 248, 0.5) 0%, rgba(54, 226, 248, 0.5) 3px, rgba(0, 0, 0, 0) 0px);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0px, rgba(54, 226, 248, 0.5) 0%, rgba(54, 226, 248, 0.5) 3px, rgba(0, 0, 0, 0) 0px), linear-gradient(90deg, rgba(0, 0, 0, 0) 0px, rgba(54, 226, 248, 0.5) 0%, rgba(54, 226, 248, 0.5) 3px, rgba(0, 0, 0, 0) 0px);
+  background-size: 4em 4em, 4em 4em;
+  background-color: black;
+  border-top: 5px solid #d100b1;
+  box-shadow: 0 -25px 45px #d100b1;
+  height: 40em;
+  -webkit-transform: scale(1.26) rotateX(80deg);
+  transform: scale(1.26) rotateX(80deg);
+  position: absolute;
+  width: 100%;
+}
+.grid:after {
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 50%, #000000 95%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, #000000 95%);
+  content: '';
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.grid:before {
+  background: -webkit-radial-gradient(center ellipse, rgba(0, 0, 0, 0) 30%, rgba(209, 0, 177, 0.5) 90%);
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 30%, rgba(209, 0, 177, 0.5) 90%);
+  content: '';
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.logo-triangle {
+  -webkit-animation: dash 6s linear forwards;
+  animation: dash 6s linear forwards;
+  fill: url(#grad1);
+  -webkit-filter: url(#dropshadow);
+  filter: url(#dropshadow);
+  left: 50%;
+  margin-left: -200px;
+  position: absolute;
+  stroke-dasharray: 1200;
+  stroke-dashoffset: 1200;
+  top: 6em;
+  z-index: 8;
+}
+
+@-webkit-keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.content-box {
+  color: white;
+  font-family: 'Audiowide', cursive;
+  padding: 4px;
+  height: auto;
+}
+
+#about{
+  border: 2px solid #36e2f8;
+  position: absolute;
+  top: 500px;
+  width: 40%;
+}
+
+#interests {
+  border: 2px solid #32FA05;
+  position: absolute;
+  top: 500px;
+  left: 50%;
+  width: 40%;
+}
+
+#projects {
+  border: 2px solid #FA1505;
+  position: absolute;
+  top: 700px;
+  width: 50%;
+}
+
+#contact {
+  border: 2px solid #d100b1;
+  position: absolute;
+  top: 700px;
+  left: 55%;
+  width: 40%;
+}
+
+/* unvisited link */
+a:link {
+    color: #36e2f8;
+}
+
+/* visited link */
+a:visited {
+    color: #d100b1;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}

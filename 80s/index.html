@@ -1,0 +1,49 @@
+<html>
+<head>
+	<link href="main.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
+
+</head>
+<body>
+	<div class="wrapper">
+		<h1>Sarthak </h1>
+		<h2>Bhandari</h2>
+
+		<svg height="320" width="400" class="logo-triangle">
+			<defs>
+				<linearGradient id="grad1" x1="0%" y1="100%" x2="100%" y2="0%">
+					<stop offset="0%" style="stop-color:rgb(50,50,50);stop-opacity:1" />
+					<stop offset="100%" style="stop-color:black;stop-opacity:1" />
+				</linearGradient>
+			</defs>
+			<filter id="dropshadow" height="130%">
+				<feGaussianBlur in="SourceAlpha" stdDeviation="3" />
+				<feOffset dx="2" dy="2" result="offsetblur" />
+				<feMerge>
+					<feMergeNode/>
+					<feMergeNode in="SourceGraphic" />
+				</feMerge>
+			</filter>
+			<polygon points="0,0 400,0 200,300" stroke="#36e2f8" stroke-width="3" />
+		</svg>
+		<div class="grid"></div>
+	</div>
+	<div class="content-box" id="about">Hey! I'm a computer scientist, programmer and entrepreneur currently finishing my senior year at the University of Michigan. I like sci-fi movies and books, Daft Punk and doing the best I can to make the world better than it was before.</div>
+	<div class="content-box" id="interests">I'm interested in mobile development (Android), web development, machine learning and computer security. I also enjoy photography, image editing and film/video making. Also hit me up if you play Overwatch on PC. I love playing video games with new people!</div>
+	<div class="content-box" id="projects">
+	Here's a few projects I'm proud of:<br>
+	<a href="http://www.wobetto.com">Wobetto</a> - A (failed) startup that was a platform for students to find other students to collaborate and study with. The project used Parse with basic CSS/JS. Did the majority of the design and creative vision for the app. <br>
+	<a href="https://salty-spire-19854.herokuapp.com/#/landing">Group Genius</a> - A web app to create a seamless way to work online on group projects. Created for EECS 493, made with Angular and Firebase.<br>
+	<a href="https://twitter.com/knower_hardly">Twitter Bot</a> - Created a Twitter bot to tweet dumb rhymes in Python. Hosted on Heroku. Dictionary words grabbed from the macOS Sierra dictionary
+	</div>
+	<div class="content-box" id="contact">
+	For a less rad version of my site (with a bit more information) go <a href="http://www.sarthakb.com">here</a>.<br>
+	You can email me <a href="mailto:sarthakb@umich.edu">here</a>. <br>
+	Hit me up on twitter <a href="https://www.twitter.com/sartechb">@sartechb</a>. <br>
+	We could also be <a href="https://www.linkedin.com/in/sarthakbhandari">LinkedIn</a> buddies!
+	</div>
+
+</body>
+</html>
