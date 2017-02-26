@@ -34,3 +34,7 @@ hr {
     color: white; /* old IE */
     background-color: white; /* Modern Browsers */
 }
+
+a:link {
+    color: hotpink;
+}
