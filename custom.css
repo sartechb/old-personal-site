@@ -38,3 +38,6 @@ hr {
 a.eighty:link{
     color: hotpink;
 }
+a.eighty:visited{
+	color: #d100b1;
+}
